@@ -1,0 +1,28 @@
+.contain{
+    display:grid ;
+    text-align: center;
+}
+
+#image{
+    padding: 5%;
+}
+
+#hint{
+    padding-bottom: 4%;
+    font-size: 26px;
+    color:yellow;
+    transition: text-shadow 0.3s ease;
+}
+
+#hint:hover{
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #00ffff;
+}
+
+body{
+    background-image: url(dark-cave-mine-stone-walls-600nw-2353494571.webp);
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
